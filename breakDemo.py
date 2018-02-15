@@ -1,12 +1,17 @@
 #Matthew Suriawinata
 #2/15/18
-#breakDemo.py - how to break a loop 
+#coutdown.py - counts down
+
+num = int(input("Enter a number of seconds: "))
+
+
 
 while True:
-    text = input("Say anything: ")
-    if text == "anything" :
+    num -= 1
+    if num == 0:
+        print("BOOM")
         break
-    print(text)
+    print(num)
     
     
     
