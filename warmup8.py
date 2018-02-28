@@ -8,7 +8,9 @@ num = 100000
 
 while num>0:
     if num % 3 == 0 and num % 10 == 0 and num % 17 == 0:
-        print(num)
+        total += num
     num -=1
+
+print(total)
     
         
