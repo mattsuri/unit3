@@ -22,7 +22,7 @@ else:
     
     
 while True:
-    if weekday(yearNow + yearAdd, monthNow +monthAdd, 13) == 4:
+    if weekday(yearNow + ye arAdd, monthNow +monthAdd, 13) == 4:
         print(
     
 
