@@ -3,7 +3,7 @@
 #perfectNumber.py - Find if number is perfect
 
 total = 0
-num = int(input("Enter a number: ")
+num = int(input("Enter a number: "))
 divisor = num - 1
 
 while divisor>0:
