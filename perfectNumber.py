@@ -8,5 +8,10 @@ divisor = num - 1
 
 while divisor>0:
     if num % divisor == 0:
-        total += num
-    divsior -=1
+        total += divisor
+    divisor -=1
+    
+if total == num:
+    print("Perfect Number!")
+else:
+    print("Not Perfect Number.")
