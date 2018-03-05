@@ -8,6 +8,13 @@ while num < -8:
     print(num)
     num += 1
     
-for i in range(50, 18, 2):
+for i in range(50, 17, -4):
     print(i)
+    
+total = 0 
+for i in range(-100, 1000, 2):
+    total += i
+
+print(total)
+    
     
